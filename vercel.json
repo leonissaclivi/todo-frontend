@@ -1,0 +1,17 @@
+{
+    "rewrites": [
+      {
+        "source": "/",
+        "destination": "/login"
+      }
+    ],
+    "routes": [
+      {
+        "handle": "filesystem"
+      },
+      {
+        "src": "/.*",
+        "dest": "/index.html"
+      }
+    ]
+  }
